@@ -1,0 +1,27 @@
+1. Initial attributes:
+	IOP
+	MD
+	Referenced MD rate of decrease (population based)
+	Age (of the population concerned)
+	Death Age (annual incidence)
+	Gender Ratio 
+	
+2. During Simulation:
+	Medication annual IOP% reduction
+	Medication annual Side effect
+	IOP after trabeculectomy and implant
+	Rate of increase IOP while not on medication 
+	Rate of increase IOP after trabeculectomy/implant
+	Time to next visit schedule - after medication and after surgery
+
+	Cataract annual incidence (by gender/)
+	Annual Probability of surgery to remove cataract
+3. Important relationship 
+	Equation linking MD with IOP
+	Equation for conversion from OHT to POAG
+4. Medical costs
+	Treatment costs (w.r.t patients' current status)
+	Care costs
+	Discount rates
+
+5. Important treatment schemas 
