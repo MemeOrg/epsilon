@@ -61,7 +61,7 @@ class SimulationSystem(object):
         env = simpy.Environment()   
         
         for i in range(self.size):
-            self.patientlist.append( Patient(env,i,self.monitor,{'IOP':self.list_IOP[i],'MD': self.list_MD[i],
+            self.patientlist.append( Patient(env,i,self.monitor,{'IOP':24,'MD': self.list_MD[i],
             'MDR':self.list_MDR[i],'CumulativeMDR': 0,
             'IOPTarget': 32,'Age':self.list_Age[i], 
             'TrabeculectomyIOP': 0,'Death':self.list_Death[i],'Gender': self.list_Gender[i]}))
